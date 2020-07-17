@@ -1,0 +1,17 @@
+{
+  "name": "card-game",
+  "version": "1.0.0",
+  "description": "A card game",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "mocha || true",
+    "single-test":"mocha -g $1"
+  },
+  "author": "Shubham Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
